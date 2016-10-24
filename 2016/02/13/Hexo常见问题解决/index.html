@@ -1,752 +1,236 @@
-<!doctype html>
-
-
-
-  
-
-
-<html class="theme-next mist use-motion">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
-
-
-
-
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-
-
-
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
-
-
-  <meta name="keywords" content="Hexo," />
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.5.0" />
-
-
-
-
-
-
-<meta name="description" content="&amp;#x672C;&amp;#x6587;&amp;#x4E3B;&amp;#x8981;&amp;#x4ECB;&amp;#x7ECD;&amp;#x5728;&amp;#x642D;&amp;#x5EFA;&amp;#x535A;&amp;#x5BA2;&amp;#x7684;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x95EE;&amp;#x9898;&amp;#x548C;&amp;#x76F8;&amp;#x5E94;&amp;#x89E3;&amp;#x51B3;">
+  <meta charset="utf-8">
+  
+  <title>Hexo常见问题解决 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="本文主要介绍在搭建博客的过程中遇到的问题和相应解决方案">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo常见问题解决">
 <meta property="og:url" content="http://yoursite.com/2016/02/13/Hexo常见问题解决/index.html">
-<meta property="og:site_name" content="紫莲">
-<meta property="og:description" content="&amp;#x672C;&amp;#x6587;&amp;#x4E3B;&amp;#x8981;&amp;#x4ECB;&amp;#x7ECD;&amp;#x5728;&amp;#x642D;&amp;#x5EFA;&amp;#x535A;&amp;#x5BA2;&amp;#x7684;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x95EE;&amp;#x9898;&amp;#x548C;&amp;#x76F8;&amp;#x5E94;&amp;#x89E3;&amp;#x51B3;">
-<meta property="og:updated_time" content="2016-04-27T15:19:32.000Z">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="本文主要介绍在搭建博客的过程中遇到的问题和相应解决方案">
+<meta property="og:updated_time" content="2016-10-24T15:56:56.680Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo常见问题解决">
-<meta name="twitter:description" content="&amp;#x672C;&amp;#x6587;&amp;#x4E3B;&amp;#x8981;&amp;#x4ECB;&amp;#x7ECD;&amp;#x5728;&amp;#x642D;&amp;#x5EFA;&amp;#x535A;&amp;#x5BA2;&amp;#x7684;&amp;#x8FC7;&amp;#x7A0B;&amp;#x4E2D;&amp;#x9047;&amp;#x5230;&amp;#x7684;&amp;#x95EE;&amp;#x9898;&amp;#x548C;&amp;#x76F8;&amp;#x5E94;&amp;#x89E3;&amp;#x51B3;">
+<meta name="twitter:description" content="本文主要介绍在搭建博客的过程中遇到的问题和相应解决方案">
+  
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
 
-
-
-<script type="text/javascript" id="hexo.configuration">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    scheme: 'Mist',
-    sidebar: "always",
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: 0,
-      author: '博主'
-    }
-  };
-</script>
-
-  <title> Hexo常见问题解决 | 紫莲 </title>
 </head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-
-
-
-
-
-
-
-
-  
-  
-
-  <div class="container one-collumn  page-post-detail ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/"  class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">紫莲</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
   </div>
-  <p class="site-subtitle">千里江山寒色远，芦花深处泊孤舟</p>
-</div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Hexo常见问题解决" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/02/13/Hexo常见问题解决/" class="article-date">
+  <time datetime="2016-02-13T10:44:10.000Z" itemprop="datePublished">2016-02-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/技术/">技术</a>
+  </div>
 
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Hexo常见问题解决
+    </h1>
   
 
-  
-    <ul id="menu" class="menu ">
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
       
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-user fa-fw"></i> <br />
-            
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-guestbook">
-          <a href="/guestbook" rel="section">
-            
-              <i class="menu-item-icon fa fa-question-circle fa-fw"></i> <br />
-            
-            留言
-          </a>
-        </li>
-      
+        <p>本文主要介绍在搭建博客的过程中遇到的问题和相应解决方案</p>
+<a id="more"></a>
+<h3 id="Hexo-无用标签的删除"><a href="#Hexo-无用标签的删除" class="headerlink" title="Hexo 无用标签的删除"></a>Hexo 无用标签的删除</h3><ul>
+<li>执行以下命令涌来删除无用的标签和分类<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo clean</div><div class="line">hexo d -g</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>使用hexo博客系统时，因为他是静态的，当删除一些页面后，页面的标签和分类还存在。我们可以使用以下命令来清空缓存并重新生成标签和分类<br>如果文章太多，分类和标签关系复杂，建议每次生成静态页面都执行以上命令，避免没必要的垃圾标签和分类</p>
+<h3 id="生成摘要"><a href="#生成摘要" class="headerlink" title="生成摘要"></a>生成摘要</h3><p>为博文生成摘要，即如何在主页显示博文时显示<strong>阅读全文</strong><br>在用markdown编辑博文时，插入代码<code>&lt;!--more--&gt;</code>，之前的文字即为摘要，后面的内容在首页不显示</p>
+<h3 id="添加评论系统"><a href="#添加评论系统" class="headerlink" title="添加评论系统"></a>添加评论系统</h3><p>采用<strong>多说</strong>统，其实非常傻瓜，在多说官网注册一个账号，再在站点配置文件<code>_config.yml</code>里添加<code>duoshuo_shortname</code>字段即可<br>另外，如果不想在<code>分类</code>和<code>标签</code>页显示评论系统，修改响应的<code>index.md</code>头部代码，加入<code>comments: false</code> 即可</p>
+<h3 id="添加来访统计"><a href="#添加来访统计" class="headerlink" title="添加来访统计"></a>添加来访统计</h3><p>采用<code>busuanzi</code>,具体参考<a href="http://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">该博文</a></p>
+<h3 id="添加图片"><a href="#添加图片" class="headerlink" title="添加图片"></a>添加图片</h3><p><em>背景：在本地使用资源文件夹添加图片，本地用例如haroopad这种编辑器预览没有问题，但是只要<code>hexo g</code>，打开服务器一看就是不显示图片的，也参考了<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="external">官网对于插入图片的说明</a>,但是根本没用，来回折腾了半天，终于通过一行插件搞定了问题</em><br>安装插件：<a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="external">CodeFalling-hexo-asset-image</a><br>安装办法：<code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code><br>在插入图片时，将<code>image.png</code>放入博文对应的资源文件夹中，然后在博文中插入<code>![image-test](blog-test-file/image.png)</code>即可。<br>这时再看生成的代码，就从原来的</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"blog-test-file/image.png"</span> <span class="attr">alt</span>=<span class="string">"image-test"</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>变成了<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/2016/04/26/blog-test-file/image.png"</span> <span class="attr">alt</span>=<span class="string">"image-test"</span>&gt;</span></div></pre></td></tr></table></figure></p>
 
       
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/02/13/Hexo常见问题解决/" data-id="ciuo8ya4000000sjfkzzkz7nu" class="article-share-link">Share</a>
       
       
-    </ul>
-  
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
 
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/02/13/Hexo搭建博客/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hexo搭建博客
+        
+      </div>
+    </a>
+  
   
 </nav>
 
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-    
-
   
-  
+</article>
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
+</section>
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                Hexo常见问题解决
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-02-13T18:44:10+08:00" content="2016-02-13">
-              2016-02-13
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/技术/" itemprop="url" rel="index">
-                    <span itemprop="name">技术</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/02/13/Hexo常见问题解决/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/02/13/Hexo常见问题解决/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          <span>&nbsp; | &nbsp;
-          <span id="busuanzi_value_page_pv" ></span>次阅读
-          </span>
-          
-
-          
-
-          
-          
-        </div>
-      </header>
+          <aside id="sidebar">
+  
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>&#x672C;&#x6587;&#x4E3B;&#x8981;&#x4ECB;&#x7ECD;&#x5728;&#x642D;&#x5EFA;&#x535A;&#x5BA2;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;&#x548C;&#x76F8;&#x5E94;&#x89E3;&#x51B3;&#x65B9;&#x6848;</p>
-<a id="more"></a>
-<h3 id="Hexo__u65E0_u7528_u6807_u7B7E_u7684_u5220_u9664"><a href="#Hexo__u65E0_u7528_u6807_u7B7E_u7684_u5220_u9664" class="headerlink" title="Hexo &#x65E0;&#x7528;&#x6807;&#x7B7E;&#x7684;&#x5220;&#x9664;"></a>Hexo &#x65E0;&#x7528;&#x6807;&#x7B7E;&#x7684;&#x5220;&#x9664;</h3><ul>
-<li>&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x6D8C;&#x6765;&#x5220;&#x9664;&#x65E0;&#x7528;&#x7684;&#x6807;&#x7B7E;&#x548C;&#x5206;&#x7C7B;<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo <span class="keyword">d</span> -<span class="keyword">g</span></span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>&#x4F7F;&#x7528;hexo&#x535A;&#x5BA2;&#x7CFB;&#x7EDF;&#x65F6;&#xFF0C;&#x56E0;&#x4E3A;&#x4ED6;&#x662F;&#x9759;&#x6001;&#x7684;&#xFF0C;&#x5F53;&#x5220;&#x9664;&#x4E00;&#x4E9B;&#x9875;&#x9762;&#x540E;&#xFF0C;&#x9875;&#x9762;&#x7684;&#x6807;&#x7B7E;&#x548C;&#x5206;&#x7C7B;&#x8FD8;&#x5B58;&#x5728;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x6765;&#x6E05;&#x7A7A;&#x7F13;&#x5B58;&#x5E76;&#x91CD;&#x65B0;&#x751F;&#x6210;&#x6807;&#x7B7E;&#x548C;&#x5206;&#x7C7B;<br>&#x5982;&#x679C;&#x6587;&#x7AE0;&#x592A;&#x591A;&#xFF0C;&#x5206;&#x7C7B;&#x548C;&#x6807;&#x7B7E;&#x5173;&#x7CFB;&#x590D;&#x6742;&#xFF0C;&#x5EFA;&#x8BAE;&#x6BCF;&#x6B21;&#x751F;&#x6210;&#x9759;&#x6001;&#x9875;&#x9762;&#x90FD;&#x6267;&#x884C;&#x4EE5;&#x4E0A;&#x547D;&#x4EE4;&#xFF0C;&#x907F;&#x514D;&#x6CA1;&#x5FC5;&#x8981;&#x7684;&#x5783;&#x573E;&#x6807;&#x7B7E;&#x548C;&#x5206;&#x7C7B;</p>
-<h3 id="u751F_u6210_u6458_u8981"><a href="#u751F_u6210_u6458_u8981" class="headerlink" title="&#x751F;&#x6210;&#x6458;&#x8981;"></a>&#x751F;&#x6210;&#x6458;&#x8981;</h3><p>&#x4E3A;&#x535A;&#x6587;&#x751F;&#x6210;&#x6458;&#x8981;&#xFF0C;&#x5373;&#x5982;&#x4F55;&#x5728;&#x4E3B;&#x9875;&#x663E;&#x793A;&#x535A;&#x6587;&#x65F6;&#x663E;&#x793A;<strong>&#x9605;&#x8BFB;&#x5168;&#x6587;</strong><br>&#x5728;&#x7528;markdown&#x7F16;&#x8F91;&#x535A;&#x6587;&#x65F6;&#xFF0C;&#x63D2;&#x5165;&#x4EE3;&#x7801;<code>&lt;!--more--&gt;</code>&#xFF0C;&#x4E4B;&#x524D;&#x7684;&#x6587;&#x5B57;&#x5373;&#x4E3A;&#x6458;&#x8981;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x5728;&#x9996;&#x9875;&#x4E0D;&#x663E;&#x793A;</p>
-<h3 id="u6DFB_u52A0_u8BC4_u8BBA_u7CFB_u7EDF"><a href="#u6DFB_u52A0_u8BC4_u8BBA_u7CFB_u7EDF" class="headerlink" title="&#x6DFB;&#x52A0;&#x8BC4;&#x8BBA;&#x7CFB;&#x7EDF;"></a>&#x6DFB;&#x52A0;&#x8BC4;&#x8BBA;&#x7CFB;&#x7EDF;</h3><p>&#x91C7;&#x7528;<strong>&#x591A;&#x8BF4;</strong>&#x7EDF;&#xFF0C;&#x5176;&#x5B9E;&#x975E;&#x5E38;&#x50BB;&#x74DC;&#xFF0C;&#x5728;&#x591A;&#x8BF4;&#x5B98;&#x7F51;&#x6CE8;&#x518C;&#x4E00;&#x4E2A;&#x8D26;&#x53F7;&#xFF0C;&#x518D;&#x5728;&#x7AD9;&#x70B9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;<code>_config.yml</code>&#x91CC;&#x6DFB;&#x52A0;<code>duoshuo_shortname</code>&#x5B57;&#x6BB5;&#x5373;&#x53EF;<br>&#x53E6;&#x5916;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x60F3;&#x5728;<code>&#x5206;&#x7C7B;</code>&#x548C;<code>&#x6807;&#x7B7E;</code>&#x9875;&#x663E;&#x793A;&#x8BC4;&#x8BBA;&#x7CFB;&#x7EDF;&#xFF0C;&#x4FEE;&#x6539;&#x54CD;&#x5E94;&#x7684;<code>index.md</code>&#x5934;&#x90E8;&#x4EE3;&#x7801;&#xFF0C;&#x52A0;&#x5165;<code>comments: false</code> &#x5373;&#x53EF;</p>
-<h3 id="u6DFB_u52A0_u6765_u8BBF_u7EDF_u8BA1"><a href="#u6DFB_u52A0_u6765_u8BBF_u7EDF_u8BA1" class="headerlink" title="&#x6DFB;&#x52A0;&#x6765;&#x8BBF;&#x7EDF;&#x8BA1;"></a>&#x6DFB;&#x52A0;&#x6765;&#x8BBF;&#x7EDF;&#x8BA1;</h3><p>&#x91C7;&#x7528;<code>busuanzi</code>,&#x5177;&#x4F53;&#x53C2;&#x8003;<a href="http://zhiho.github.io/2015/09/29/hexo-next/" target="_blank" rel="external">&#x8BE5;&#x535A;&#x6587;</a></p>
-<h3 id="u6DFB_u52A0_u56FE_u7247"><a href="#u6DFB_u52A0_u56FE_u7247" class="headerlink" title="&#x6DFB;&#x52A0;&#x56FE;&#x7247;"></a>&#x6DFB;&#x52A0;&#x56FE;&#x7247;</h3><p><em>&#x80CC;&#x666F;&#xFF1A;&#x5728;&#x672C;&#x5730;&#x4F7F;&#x7528;&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#x5939;&#x6DFB;&#x52A0;&#x56FE;&#x7247;&#xFF0C;&#x672C;&#x5730;&#x7528;&#x4F8B;&#x5982;haroopad&#x8FD9;&#x79CD;&#x7F16;&#x8F91;&#x5668;&#x9884;&#x89C8;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#xFF0C;&#x4F46;&#x662F;&#x53EA;&#x8981;<code>hexo g</code>&#xFF0C;&#x6253;&#x5F00;&#x670D;&#x52A1;&#x5668;&#x4E00;&#x770B;&#x5C31;&#x662F;&#x4E0D;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#xFF0C;&#x4E5F;&#x53C2;&#x8003;&#x4E86;<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="external">&#x5B98;&#x7F51;&#x5BF9;&#x4E8E;&#x63D2;&#x5165;&#x56FE;&#x7247;&#x7684;&#x8BF4;&#x660E;</a>,&#x4F46;&#x662F;&#x6839;&#x672C;&#x6CA1;&#x7528;&#xFF0C;&#x6765;&#x56DE;&#x6298;&#x817E;&#x4E86;&#x534A;&#x5929;&#xFF0C;&#x7EC8;&#x4E8E;&#x901A;&#x8FC7;&#x4E00;&#x884C;&#x63D2;&#x4EF6;&#x641E;&#x5B9A;&#x4E86;&#x95EE;&#x9898;</em><br>&#x5B89;&#x88C5;&#x63D2;&#x4EF6;&#xFF1A;<a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="external">CodeFalling-hexo-asset-image</a><br>&#x5B89;&#x88C5;&#x529E;&#x6CD5;&#xFF1A;<code>npm install https://github.com/CodeFalling/hexo-asset-image --save</code><br>&#x5728;&#x63D2;&#x5165;&#x56FE;&#x7247;&#x65F6;&#xFF0C;&#x5C06;<code>image.png</code>&#x653E;&#x5165;&#x535A;&#x6587;&#x5BF9;&#x5E94;&#x7684;&#x8D44;&#x6E90;&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x535A;&#x6587;&#x4E2D;&#x63D2;&#x5165;<code>![image-test](blog-test-file/image.png)</code>&#x5373;&#x53EF;&#x3002;<br>&#x8FD9;&#x65F6;&#x518D;&#x770B;&#x751F;&#x6210;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x5C31;&#x4ECE;&#x539F;&#x6765;&#x7684;</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">&quot;blog-test-file/image.png&quot;</span> <span class="attribute">alt</span>=<span class="value">&quot;image-test&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>&#x53D8;&#x6210;&#x4E86;<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">img</span> <span class="attribute">src</span>=<span class="value">&quot;/2016/04/26/blog-test-file/image.png&quot;</span> <span class="attribute">alt</span>=<span class="value">&quot;image-test&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
-
-      
-    </div>
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/Hexo/" rel="tag">#Hexo</a>
-          
-        </div>
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/02/13/Hexo搭建博客/" rel="prev" title="Hexo搭建博客">
-                Hexo搭建博客 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/">技术</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/技术/编程方法学/">编程方法学</a><span class="category-list-count">1</span></li></ul></li></ul>
     </div>
   </div>
 
-
-          </div>
-          
-
-
-          
-  <div class="comments" id="comments">
-    
-      <div class="ds-thread" data-thread-key="2016/02/13/Hexo常见问题解决/"
-           data-title="Hexo常见问题解决" data-url="http://yoursite.com/2016/02/13/Hexo常见问题解决/">
-      </div>
-    
-  </div>
-
-
-        </div>
-        
-          
   
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Karel/">Karel</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/java/">java</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jdk/">jdk</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Karel/" style="font-size: 10px;">Karel</a> <a href="/tags/java/" style="font-size: 20px;">java</a> <a href="/tags/jdk/" style="font-size: 10px;">jdk</a>
+    </div>
+  </div>
 
-      
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a><span class="archive-list-count">2</span></li></ul>
+    </div>
+  </div>
 
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2016/10/24/hiFromDell/">hiFromDell</a>
           </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
+        
+          <li>
+            <a href="/2016/10/24/testFromDell/">testFromDell</a>
           </li>
-        </ul>
-      
-
-      <section class="site-overview sidebar-panel ">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image"
-               src="/images/avator.JPG"
-               alt="Rita.Kim" />
-          <p class="site-author-name" itemprop="name">Rita.Kim</p>
-          <p class="site-description motion-element" itemprop="description">有些路啊，只能一个人走</p>
-        </div>
-        <nav class="site-state motion-element">
-          <div class="site-state-item site-state-posts">
-            <a href="/archives">
-              <span class="site-state-item-count">6</span>
-              <span class="site-state-item-name">日志</span>
-            </a>
-          </div>
-          
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
         
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
+          <li>
+            <a href="/2016/10/24/hello-world/">Hello World</a>
+          </li>
         
+          <li>
+            <a href="/2016/10/22/Test/">Test</a>
+          </li>
         
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-      </section>
-
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator">
-            <i class="fa fa-angle-double-up"></i>
-          </div>
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo__u65E0_u7528_u6807_u7B7E_u7684_u5220_u9664"><span class="nav-number">1.</span> <span class="nav-text">Hexo 无用标签的删除</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u751F_u6210_u6458_u8981"><span class="nav-number">2.</span> <span class="nav-text">生成摘要</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u6DFB_u52A0_u8BC4_u8BBA_u7CFB_u7EDF"><span class="nav-number">3.</span> <span class="nav-text">添加评论系统</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u6DFB_u52A0_u6765_u8BBF_u7EDF_u8BA1"><span class="nav-number">4.</span> <span class="nav-text">添加来访统计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u6DFB_u52A0_u56FE_u7247"><span class="nav-number">5.</span> <span class="nav-text">添加图片</span></a></li></ol></div>
-            
-          </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator">
-            <i class="fa fa-angle-double-down"></i>
-          </div>
-        </section>
-      
-
+          <li>
+            <a href="/2016/08/19/spark-programming-guide/">spark-programming-guide</a>
+          </li>
+        
+      </ul>
     </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright" >
-  
-  &copy; 
-  <span itemprop="copyrightYear">2016</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Rita.Kim</span>
-</div>
-
-<div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
-
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-本站总访问量 <span id="busuanzi_value_site_pv"></span> &nbsp&nbsp&nbsp
-您是第<span id="busuanzi_value_site_uv"></span>个来访小伙伴
-
-
-
-      </div>
-    </footer>
-
-    <div class="back-to-top"></div>
   </div>
 
   
-
-
+</aside>
+        
+      </div>
+      <footer id="footer">
   
-
-
-
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-
-
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2016 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
   
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=0.5.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=0.5.0"></script>
-
-
-
+    <a href="/" class="mobile-nav-link">Home</a>
   
+    <a href="/archives" class="mobile-nav-link">Archives</a>
   
-
-  
-  
-<script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
-
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
-    var tocSelector = '.post-toc';
-    var $tocSelector = $(tocSelector);
-    var activeCurrentSelector = '.active-current';
-
-    $tocSelector
-      .on('activate.bs.scrollspy', function () {
-        var $currentActiveElement = $(tocSelector + ' .active').last();
-
-        removeCurrentActiveClass();
-        $currentActiveElement.addClass('active-current');
-
-        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
-      })
-      .on('clear.bs.scrollspy', function () {
-        removeCurrentActiveClass();
-      });
-
-    function removeCurrentActiveClass () {
-      $(tocSelector + ' ' + activeCurrentSelector)
-        .removeClass(activeCurrentSelector.substring(1));
-    }
-
-    function processTOC () {
-      getTOCMaxHeight();
-      toggleTOCOverflowIndicators();
-    }
-
-    function getTOCMaxHeight () {
-      var height = $('.sidebar').height() -
-                   $tocSelector.position().top -
-                   $('.post-toc-indicator-bottom').height();
-
-      $tocSelector.css('height', height);
-
-      return height;
-    }
-
-    function toggleTOCOverflowIndicators () {
-      tocOverflowIndicator(
-        '.post-toc-indicator-top',
-        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
-      );
-
-      tocOverflowIndicator(
-        '.post-toc-indicator-bottom',
-        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
-      )
-    }
-
-    $(document).on('sidebar.motion.complete', function () {
-      processTOC();
-    });
-
-    $('body').scrollspy({ target: tocSelector });
-    $(window).on('resize', function () {
-      if ( $('.sidebar').hasClass('sidebar-active') ) {
-        processTOC();
-      }
-    });
-
-    onScroll($tocSelector);
-
-    function onScroll (element) {
-      element.on('mousewheel DOMMouseScroll', function (event) {
-          var oe = event.originalEvent;
-          var delta = oe.wheelDelta || -oe.detail;
-
-          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-          event.preventDefault();
-
-          toggleTOCOverflowIndicators();
-      });
-    }
-
-    function tocOverflowIndicator (indicator, action) {
-      var $indicator = $(indicator);
-      var opacity = action === 'show' ? 1 : 0;
-      $indicator.velocity ?
-        $indicator.velocity('stop').velocity({
-          opacity: opacity
-        }, { duration: 100 }) :
-        $indicator.stop().animate({
-          opacity: opacity
-        }, 100);
-    }
-
-  });
-</script>
-
-<script type="text/javascript" id="sidebar.nav">
-  $(document).ready(function () {
-    var html = $('html');
-    var TAB_ANIMATE_DURATION = 200;
-    var hasVelocity = $.isFunction(html.velocity);
-
-    $('.sidebar-nav li').on('click', function () {
-      var item = $(this);
-      var activeTabClassName = 'sidebar-nav-active';
-      var activePanelClassName = 'sidebar-panel-active';
-      if (item.hasClass(activeTabClassName)) {
-        return;
-      }
-
-      var currentTarget = $('.' + activePanelClassName);
-      var target = $('.' + item.data('target'));
-
-      hasVelocity ?
-        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
-          target
-            .velocity('stop')
-            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
-            .addClass(activePanelClassName);
-        }) :
-        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
-          currentTarget.hide();
-          target
-            .stop()
-            .css({'opacity': 0, 'display': 'block'})
-            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
-              currentTarget.removeClass(activePanelClassName);
-              target.addClass(activePanelClassName);
-            });
-        });
-
-      item.siblings().removeClass(activeTabClassName);
-      item.addClass(activeTabClassName);
-    });
-
-    $('.post-toc a').on('click', function (e) {
-      e.preventDefault();
-      var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
-      var offset = $(targetSelector).offset().top;
-      hasVelocity ?
-        html.velocity('stop').velocity('scroll', {
-          offset: offset  + 'px',
-          mobileHA: false
-        }) :
-        $('html, body').stop().animate({
-          scrollTop: offset
-        }, 500);
-    });
-
-    // Expand sidebar on post detail page by default, when post has a toc.
-    NexT.motion.middleWares.sidebar = function () {
-      var $tocContent = $('.post-toc-content');
-
-      if (CONFIG.sidebar === 'post') {
-        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
-          NexT.utils.displaySidebar();
-        }
-      }
-    };
-  });
-</script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=0.5.0"></script>
-
-
-
-  
-
-  
+</nav>
     
-  
 
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"jzlbupt"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
+<script src="/js/script.js"></script>
 
-  
-  
-
-  
-  
-
-
+  </div>
 </body>
 </html>
